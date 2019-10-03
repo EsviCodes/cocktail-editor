@@ -1,9 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  background-color: lightblue;
+  padding: 5%;
 }
 
 .App-header {
@@ -17,6 +15,11 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2%;
+  line-height: 2;
+  background-color: lightcoral;
+  border: 10px double white;
 }

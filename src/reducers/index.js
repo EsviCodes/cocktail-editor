@@ -1,7 +1,9 @@
 import { combineReducers } from "redux";
 import cocktails from "./cocktails";
+import selectedCocktail from "./selected-cocktails";
 
 export default combineReducers({
-  cocktails: cocktails
+  cocktails,
+  selectedCocktail
   // add more reducers
 });
