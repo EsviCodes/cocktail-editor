@@ -4,7 +4,7 @@ export default function CocktailList(props) {
   return (
     <div>
       <h1>Cocktail Party!</h1>
-      <h2>Add your own super awesome cocktail mix to the list!</h2>
+      <h2>Click on a cocktail and create your own!</h2>
       <h3>Super awesome cocktails</h3>
       <ul>
         {props.cocktails.map(cocktail => {

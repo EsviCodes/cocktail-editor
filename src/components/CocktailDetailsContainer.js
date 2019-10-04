@@ -4,7 +4,6 @@ import CocktailDetails from "./CocktailDetails";
 
 class CocktailDetailsContainer extends React.Component {
   render() {
-    console.log("PROPS IN CDC", this.props); // depatch
     const cocktail = this.props.cocktail;
     if (!cocktail) return null;
 

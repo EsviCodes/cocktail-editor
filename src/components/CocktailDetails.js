@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function CocktailDetails(props) {
-  console.log("PROPS IN COCKTAILDETAILS ARE", props);
   const cocktail = props.cocktail;
   return (
     <div>
@@ -11,9 +10,6 @@ export default function CocktailDetails(props) {
         <br></br>
         <br></br>
         {cocktail.ingredients.map(ingredient => {
-          console.log(ingredient.name);
-          console.log(ingredient.measure);
-
           return `• ${ingredient.name}: ${ingredient.measure} • `;
         })}
       </p>
