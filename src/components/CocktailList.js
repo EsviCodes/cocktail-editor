@@ -1,8 +1,6 @@
 import React from "react";
 
 export default function CocktailList(props) {
-  console.log("PROPS ARE", props);
-
   return (
     <div>
       <h1>Cocktail Party!</h1>

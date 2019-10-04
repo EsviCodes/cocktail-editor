@@ -11,7 +11,6 @@ class CocktailListContainer extends React.Component {
   };
 
   render() {
-    console.log(this.props);
     return (
       <CocktailList
         cocktails={this.props.cocktails}
