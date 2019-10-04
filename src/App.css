@@ -1,18 +1,8 @@
 .App {
   text-align: center;
-  background-color: lightblue;
+  background-color: #fb9a93;
   padding: 5%;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ede9dd;
 }
 
 li {
@@ -20,6 +10,6 @@ li {
   margin: 0;
   padding: 2%;
   line-height: 2;
-  background-color: lightcoral;
-  border: 10px double white;
+  background-color: #018b5a;
+  border: 10px double #94d9d4;
 }
